@@ -3,10 +3,10 @@ import { CategoriesRoutes } from '../modules/Categories/categories.route';
 import { UserRoutes } from '../modules/User/user.route';
 import { AuthRoutes } from '../modules/Auth/auth.route';
 import { BlogsRoutes } from '../modules/Blogs/blogs.route';
-import { ExperienceRoutes } from '../modules/Experience/experience.route';
 import { ContactRoutes } from '../modules/Contact/contact.route';
 import { SubCategoriesRoutes } from '../modules/SubCategories/subCategories.route';
 import { ProductsRoutes } from '../modules/Products/products.route';
+import { OrdersRoutes } from '../modules/Orders/orders.route';
 
 const router = Router();
 
@@ -36,8 +36,8 @@ const moduleRoutes = [
     route: BlogsRoutes,
   },
   {
-    path: '/experience',
-    route: ExperienceRoutes,
+    path: '/orders',
+    route: OrdersRoutes,
   },
   {
     path: '/contact',
